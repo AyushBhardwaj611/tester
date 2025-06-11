@@ -10,7 +10,10 @@ public class javaTestController {
 
     public static void main(String[] args) {
         System.out.println("Hello world");
-        System.out.println("Hello world1");
+
+        javaTestController controller = new javaTestController();
+        controller.setData(10);
+        System.out.println(controller.getData());
     }
 
 }
