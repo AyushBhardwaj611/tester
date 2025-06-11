@@ -9,10 +9,10 @@ public class javaTestController {
     private int data;
 
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        System.out.println("test world");
 
         javaTestController controller = new javaTestController();
-        controller.setData(10);
+        controller.setData(20);
         System.out.println(controller.getData());
     }
 
